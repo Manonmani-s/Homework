@@ -17,12 +17,12 @@ In the Morning first session we installed the Extension ignore “g”it at the 
 
 As the next step at the terminal make sure with the folder we are working with.(Our local folder in the root was 01-HTML/01-BASICS). On the command line, navigate to the root directory of your package.
 
-$ cd /01-HTML/01-BASICS
+> $ cd /01-HTML/01-BASICS
 
 Run the following command to create a package.json and install the live-server
 
-$ npm init
-$ npm install -g liveserver
+> $ npm init
+> $ npm install -g liveserver
 
 Edit the package.json file by adding the following command to the script
 
@@ -39,6 +39,6 @@ Run the following command at the Terminal to run live-server:
 
 or
 
-$ npm start 
+> $ npm start 
 
 if you used start as the script at the package.json file.
