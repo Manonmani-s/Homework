@@ -28,8 +28,6 @@ Edit the package.json file by adding the following command to the script
 
  "server": "live-server"
 
-    Note:
-
         Here server is the user defined name for the live-server. To use default you can type as “start”: “live-server” .
         Always make sure that the index.html file is in the directory as the live server search for the index.html to load the page.
 
