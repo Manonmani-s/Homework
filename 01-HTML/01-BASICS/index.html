@@ -7,18 +7,157 @@
     <title>First Website</title>
 </head>
 
+
+<style>
+    table,
+    /* {
+        border-collapse: collapse;
+    } */
+    td,
+    th {
+        border: 1px solid orange;
+    }
+</style>
+
+
+
 <body>
     <!-- Learning Commenting,ctrl+k+c or ctrl+/ -->
     <h1>First Website</h1>
     <p>sample paragraph text</p>
+
+
     <!-- Horizontal Line -->
     <hr>
     <p>second paragraph with a break line at the end</p><br>
-    <p>this line is after the break line</p>
+    <p style="display: inline;">this line is after the break line</p>
+
+
     <!-- External Link -->
     <a href="https://git-scm.com/book/en/v2" target="blank">Git Reference</a>
+
+
     <!-- Internal Link -->
     <a href="layout.html">Internal link</a>
+
+
+    <!-- External Image -->
+    <img style="display: block" src="https://picsum.photos/400/400?random=1 " alt="alternative external image">
+
+
+    <!-- list elements and table items -->
+    <!-- unordered list -->
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <hr>
+    <ol>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ol>
+    <!-- Nested list -->
+    <ol>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>
+            <ul>
+                <li>Sub Item1</li>
+                <li>Sub Item2</li>
+                <li>Sub Item3</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+
+    <!--Table definition  -->
+
+    <table style="width: 600px;border: rgb(85, 32, 32);">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last NAme</th>
+                <th>EMAil</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>jd@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Manonmani</td>
+                <td>Selvakumar</td>
+                <td>mm@gamil.com</td>
+
+            </tr>
+            <tr>
+                <td>will</td>
+                <td>smith</td>
+                <td>ws@gmail.com</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- table inside the unordered list -->
+    <ul>
+        <li>
+            <table style="width: 700px;">
+                <thead>
+                    <tr>
+                        <td>First Name </td>
+
+
+                        <td>Second Name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sara</td>
+                        <td>Mathews</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>Tretz</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </li>
+        <br>
+        <li> THe above table is for the names</li>
+    </ul>
+    <!-- Table inside ordered list -->
+    <ol>
+        <li>
+            <table style="width: 700px;">
+                <thead>
+                    <tr>
+                        <td>Student</td>
+
+                        <td>location</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>xxx</td>
+                        <td>Düsseldorf</td>
+                    </tr>
+                    <tr>
+                        <td>yyy</td>
+                        <td>Berlin</td>
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+    </ol>
+
+
 
 </body>
 
