@@ -1,0 +1,16 @@
+{
+  "name": "01-basics",
+  "version": "1.0.0",
+  "description": "Basic HTML Elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server"
+  },
+  "author": "Manonmani",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "liveserver": "^0.1.20"
+  }
+}
