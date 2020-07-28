@@ -35,7 +35,7 @@ Now we are ready to create, edit and design the HTML page and run with the live 
 
 Run the following command at the Terminal to run live-server:
 
-$ npm run server
+> - $ npm run server
 
 or
 
