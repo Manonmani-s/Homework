@@ -7,36 +7,65 @@
     <title>Div,Span, Id and class</title>
     <style>
         .card {
+            /* height: 700; */
             border: 1px solid crimson;
             background: darkgray;
             padding: 20px;
             margin-bottom: 10px;
+            
         }
 
         .enhance {
             color: darkolivegreen;
             background-color: darkseagreen;
         }
+        
     </style>
 </head>
 
 <body>
 
-    <div id="main-header" class="card">
-        <h1>My Website</h1>
-        <p>A Site ABOUT me</p>
-    </div>
+     <ul id="main-nav">
+        <li><a href="#main-header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#content">Contact</a></li>
+    </ul>
+
     <!-- ul#main-nav>(li+a)*3  cool shortcut -->
     <!-- ul#main-nav>(li>a)*3 -->
     <!-- ul#main-nav>li*3>a{hello} -->
 
-    <ul id="main-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+    <div id="main-header" class="card">
+        <h1>My Website</h1>
+        <p>A Site ABOUT me</p>
+    </div>
+
+  
+
+    <!-- #about.card>h3{About}+p>lorem20 -->
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, modi aspernatur nulla aliquid assumenda mollitia recusandae commodi fugiat atque amet explicabo iste velit officiis delectus itaque vel, rem minima eveniet blanditiis et ut placeat. Et tenetur odit suscipit soluta dicta dignissimos, nobis non unde nisi aut? Porro, maxime excepturi? Laboriosam!</p>
+    </div>
+
+    <!-- #footer>p{copyright &copy; 2020} -->
+    
+    <!-- #content.card>h3{Contact Me}+ul>li{Add,Hamburg}+li{1223232}+li{asdsds@sd.com} -->
+    
+    <div id="content" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Add,Hamburg</li>
+            <li>1223232</li>
+            <li>asdsds@sd.com</li>
+        </ul>
+    </div>
 
 
+    
+    <div id="footer">
+        <p>Copyright &copy; FbW39 2020</p>
+    </div>
 </body>
 
 </html>
