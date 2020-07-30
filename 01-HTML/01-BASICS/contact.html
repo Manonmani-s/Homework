@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <h1>Contact Us:</h1>
+
+    <form name="contact" action="action.js" method="POST">
+
+        <!-- Text -->
+        <div>
+            <label for="firstname">Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Full Name" value="John Doe">
+        </div>
+
+        <!-- Email -->
+
+        <div>
+            <label for="email">EMail:</label>
+            <input type="emial" id="email" placeholder="Enter an Email">
+        </div>
+
+        <!-- Textarea  -->
+        <div>
+            <label for="message">Give us a Message:</label>
+            <textarea name="message" id="" cols="15" rows="5" id="message">Hello Guys!!</textarea>
+        </div>
+
+        <!-- Select Input -->
+        <div>
+            <label for="Gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select>
+        </div>
+
+        <!-- Number -->
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="0" max="100">
+        </div>
+
+        <!-- Date -->
+        <div>
+            <label for="bdate">Birth Date</label>
+            <input type="date" name="bdate" id="bdate">
+        </div>
+
+        <!-- Radio -->
+        <div>
+            <label for="membership">Membership</label>
+
+            <input type="radio" name="membership" id="simpler" value="simple">simple
+
+            <input type="radio" name="membership" id="standardr" value="standard" checked>standard
+
+            <input type="radio" name="membership" id="superr" value="super">super
+
+        </div>
+
+        <!-- checkbox -->
+        <div>
+            <label for="transportation">I like..</label>
+
+            <input type="checkbox" name="mtransportationmber" id="car" value="simple">car
+
+            <input type="checkbox" name="transportation" id="bike" value="standard" checked>bike
+
+            <input type="checkbox" name="transportation" id="train" value="super">train
+            
+        </div>
+
+        <!-- Input Submit -->
+        <!-- <input type="submit" value="submit"> -->
+        <button type="submit">Submit</button>
+
+        <!-- Reset -->
+        <button type="reset">Reset</button>
+        <a href="excerciseforms.html">excercise</a>
+    </form>
+</body>
+
+</html>
