@@ -1,0 +1,15 @@
+{
+  "name": "form-submit",
+  "version": "1.0.0",
+  "description": "HTML Form Submit, ExpressJS server handling http request",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"live-server"
+  },
+  "author": "Fbw39",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
