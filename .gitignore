@@ -1,5 +1,5 @@
 
-01-HTML/01-BASICS/node_modules
-01-HTML/02-Advanced/node_modules
+
 #Comment with 2# symobols in .gitignore file#
 #to include in general all the node modules in the folder use the command as **/node_modules #
+**/node_modules

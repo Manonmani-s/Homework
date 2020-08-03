@@ -54,9 +54,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 
-//Use  a middleware
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended:false}))
+//Use  a middleware to decode the body
+app.use(bodyParser.json()) //decode the body
+app.use(bodyParser.urlencoded({extended:false})) //decode the header
+//extended:false means that {x:{y:{z:5}}} is not allowed
 
 
 
@@ -68,10 +69,11 @@ app.get('/', function(req,res){
 
 //POST (submit) request
 app.post('/submit-student-data', function(req,res){
-    console.log(req.body.fname,req.body.lname)
+    console.log(req.body.fname,req.body.lname,req.body.email)
     
 
     res.send('Hello:' +req.body.fname)
+   // res.send('email' +req.body.email)
 })
 
 
